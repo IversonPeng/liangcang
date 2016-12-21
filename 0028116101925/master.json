@@ -1,0 +1,105 @@
+{
+  "totalPages": 10,
+  "currentPage": 1,
+  "masters": [
+    {
+      "imgsrc": "templates/master/master_img/56.jpg",
+      "work": "日本时装设计师",
+      "name": "山本耀司",
+      "imgsrc1": "templates/master/master_img/137.jpg",
+      "work1": "摄影师",
+      "name1": "Martin Parr",
+      "imgsrc2": "templates/master/master_img/151.jpg",
+      "work2": "monocle主编",
+      "name2": "Tyler Brule"
+    },
+    {
+      "imgsrc": "templates/master/master_img/187.jpg",
+      "work": "演员，高手",
+      "name": "陈坤",
+      "imgsrc1": "templates/master/master_img/1502.jpg",
+      "work1": "作家，赛车手",
+      "name1": "韩寒",
+      "imgsrc2": "templates/master/master_img/5735.jpg",
+      "work2": "摇滚师，当代艺术家",
+      "name2": "左小祖咒"
+    },
+    {
+      "imgsrc": "templates/master/master_img/8051.jpg",
+      "work": "著名音乐人",
+      "name": "张楚",
+      "imgsrc1": "templates/master/master_img/12596.jpg",
+      "work1": "作家",
+      "name1": "张悦然",
+      "imgsrc2": "templates/master/master_img/403886808.jpg",
+      "work2": "著名建筑师",
+      "name2": "张永和"
+    },
+    {
+      "imgsrc": "templates/master/master_img/455123940.jpg",
+      "work": "著名创作歌手",
+      "name": "田园",
+      "imgsrc1": "templates/master/master_img/999998879.jpg",
+      "work1": "作家，厨师",
+      "name1": "安东尼",
+      "imgsrc2": "templates/master/master_img/999999671.jpg",
+      "work2": "EVENING创始人",
+      "name2": "Evening"
+    },
+    {
+      "imgsrc": "templates/master/master_img/999999673.jpg",
+      "work": "日本时装设计师",
+      "name": "山本耀司",
+      "imgsrc1": "templates/master/master_img/1000018759.jpg",
+      "work1": "手艺人",
+      "name1": "郭宏宇",
+      "imgsrc2": "templates/master/master_img/151.jpg",
+      "work2": "monocle主编",
+      "name2": "Tyler Brule"
+    },
+    {
+      "imgsrc": "templates/master/master_img/56.jpg",
+      "work": "日本时装设计师",
+      "name": "山本耀司",
+      "imgsrc1": "templates/master/master_img/137.jpg",
+      "work1": "摄影师",
+      "name1": "Martin Parr",
+      "imgsrc2": "templates/master/master_img/999999673.jpg",
+      "work2": "monocle主编",
+      "name2": "Tyler Brule"
+    },
+    {
+      "imgsrc": "templates/master/master_img/1502.jpg",
+      "work": "日本时装设计师",
+      "name": "山本耀司",
+      "imgsrc1": "templates/master/master_img/187.jpg",
+      "work1": "摄影师",
+      "name1": "Martin Parr",
+      "imgsrc2": "templates/master/master_img/1000018759.jpg",
+      "work2": "monocle主编",
+      "name2": "Tyler Brule"
+    },
+    {
+      "imgsrc": "templates/master/master_img/5735.jpg",
+      "work": "日本时装设计师",
+      "name": "山本耀司",
+      "imgsrc1": "templates/master/master_img/12596.jpg",
+      "work1": "摄影师",
+      "name1": "Martin Parr",
+      "imgsrc2": "templates/master/master_img/1000018759.jpg",
+      "work2": "摇滚师，当代艺术家",
+      "name2": "左小祖咒"
+    },
+    {
+      "imgsrc": "templates/master/master_img/56.jpg",
+      "work": "演员，高手",
+      "name": "陈坤",
+      "imgsrc1": "templates/master/master_img/137.jpg",
+      "work1": "摄影师",
+      "name1": "Martin Parr",
+      "imgsrc2": "templates/master/master_img/999998879.jpg",
+      "work2": "monocle主编",
+      "name2": "Tyler Brule"
+    }
+  ]
+}

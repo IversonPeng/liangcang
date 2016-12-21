@@ -1,0 +1,49 @@
+<ion-view>
+    <ion-nav-title>商品明细</ion-nav-title>
+    <ion-nav-buttons side="right">
+        <button class="button button-clear button-icon ion-ios-cart-outline icon-right"
+                style="font-size: 25px;" ui-sref="checkOut">
+        </button>
+        <span class="badge" style="position: relative;left: -15px;font-size: 18px">{{totalNumber()}}</span>
+    </ion-nav-buttons>
+    <ion-content style="background: #444">
+        <ion-slide-box does-continue="true" auto-play="true" slide-interval="2000" >
+            <ion-slide>
+                <div class="box"><img ng-src="{{product.imgsrc1}}" style=" width: 100%"></div>
+            </ion-slide>
+            <ion-slide>
+                <div class="box"><img ng-src="{{product.imgsrc2}}" style="width: 100%"></div>
+            </ion-slide>
+            <ion-slide>
+                <div class="box"<img ng-src="{{product.imgsrc}}" style="width: 100%"></div>
+            </ion-slide>
+        </ion-slide-box>
+        <div style="margin-bottom: 40px;">
+            <h3 style="color: #fff">{{product.name}}</h3>
+            <p style="color:#fff;width: 70%">{{product.desc1}}</p>
+            <span style="color:slategrey;font-size: 24px;">{{product.price}}</span>
+            <button class="button button-icon ion-heart" style="color: #9e9e9e;font-size: 26px;float: right;margin-top: -95px;"></button>
+        </div>
+        <div class="title">
+            <div style="float: left;margin-left: 8%;width:40%;
+            text-align: center;height: 35px;line-height: 35px;" class="current">商品详情</div>
+            <div style="width: 40%;text-align: center;
+        height: 35px;line-height: 35px;float: left;margin-right: 8%">购物须知</div>
+        </div>
+        <div class="desc">
+            <div style="text-align: center;margin-top: 100px;">——品牌简介——</div>
+            <h5 style="color: #fff;margin: 30px 0 6% 6%;width: 90%;font-weight: normal;line-height: 20px;">{{product.desc3}}</h5>
+            <div class="box" ui-sref="detail"><img ng-src="{{product.imgsrc1}}" style=" width: 100%"></div>
+            <div class="box" ui-sref="detail"><img ng-src="{{product.imgsrc2}}" style="width: 100%"></div>
+        </div>
+        <div style="display: none" class="desc">
+            <div style="text-align: center;margin-top: 100px;">——售后须知——</div>
+            <h5 style="color: #fff;margin: 30px 0 6% 6%;width: 90%;font-weight: normal;line-height: 30px;">所有商品均为正品保障<br>
+                下单后4个工作日发货。<br>中国大陆地区免运费，默认商家或作快递<br>如出现产品质量问题72小时内联系客服
+            </h5>
+        </div>
+    </ion-content>
+    <ion-tabs class="tabs-calm">
+        <ion-tab title="立即购买"  ui-sref="order"></ion-tab>
+    </ion-tabs>
+</ion-view>

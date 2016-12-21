@@ -1,0 +1,14 @@
+<ion-view hide-nav-bar="true">
+    <ion-header-bar align-title="center" class="bar-dark">
+        <h2 class="title">杂志</h2>
+    </ion-header-bar>
+    <ion-content style="background: #444">
+       <div class="row" style="padding: 0" ng-repeat="product in data.productList" ng-click="toBook(product)"><div>
+               <div><img ng-src="{{product.imgsrc}}" style="width: 100%;height: 200px;background-size: cover"></div>
+               <div style="background: #333;opacity: .3;height: 200px;margin-top: -205px"></div>
+               <p style="color: #fff;text-align: center;margin-top: -52px">{{product.title}}</p>
+               <h5 style="color: #fff;text-align: center;">{{product.type}}</h5>
+           </div>
+       </div>
+    </ion-content>
+</ion-view>

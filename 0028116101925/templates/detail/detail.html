@@ -1,0 +1,32 @@
+<ion-view hide-nav-bar="true">
+    <ion-header-bar align-title="center" class="bar-dark">
+        <button class="button button-icon ion-chevron-left" ui-sref="tabs.store"></button>
+        <h2 class="title">商店</h2>
+        <button class="button button-icon ion-ios-cart-outline"  style="font-size: 25px;margin-left: 73%"  ui-sref="checkOut"></button>
+        <span class="badge" style="position: relative;left: -15px;font-size: 18px">{{totalNumber()}}</span>
+    </ion-header-bar>
+    <ion-content style="background: #444">
+        <div class="list">
+            <div class="row" ng-repeat="product in data.productList">
+                <div class="col">
+                    <img ng-src="{{product.imgsrc}}" style="width: 100%;"  ng-click="tobuy(product)">
+                    <div class="desc" style=";background: #4d4d4d;margin-top: -14px">
+                        <h5 style="color: #fff">{{product.name}}</h5>
+                        <p style="color: #0a9dc7">{{product.desc}}</p>
+                        <span>{{product.price}}</span>
+                        <div class="bg" style="color: #fff;font-size: 12px;float: right;width: 65px;height: 30px;margin-top: -20px;
+                        text-align: center;line-height: 30px;border-radius: 5px;" ng-click="add(product)">加入购物车</div>
+                    </div>
+                </div>
+                <!--<div class="col">
+                    <img ng-src="{{product.imgsrc1}}" style="width: 100%">
+                    <div class="desc" style=";background: #4d4d4d;margin-top: -5px">
+                        <h5 style="color: #fff">{{product.name1}}</h5>
+                        <p style="color: #0a9dc7">{{product.desc1}}</p>
+                        <span>{{product.price1}}</span>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

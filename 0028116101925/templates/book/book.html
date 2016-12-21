@@ -1,0 +1,17 @@
+<ion-view hide-nav-bar="true">
+    <ion-header-bar align-title="center" class="bar-dark">
+        <button class="button button-icon ion-chevron-left" ui-sref="tabs.notes"></button>
+        <h2 class="title">良仓杂志</h2>
+        <button class="button button-icon ion-heart"></button>
+    </ion-header-bar>
+    <ion-content>
+        <div class="row" style="padding: 0">
+            <img ng-src="{{product.imgsrc}}" style="height: 300px;width: 100%">
+        </div>
+        <h3 style="color: #000;text-align: center">{{product.title}}</h3>
+        <span style="text-align: center;width: 100%;display: block;color: #4d4d4d">文章作者：外滩时尚</span>
+        <p style="margin-top: 20px;line-height: 30px;">{{product.desc}}</p>
+        <img ng-src="{{product.imgsrc2}}" style="width: 100%">
+        <img src="templates/book/book_img/1012758.gif" style="width: 100%">
+    </ion-content>
+</ion-view>

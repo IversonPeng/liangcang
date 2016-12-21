@@ -1,0 +1,22 @@
+<ion-view view-title="达人">
+    <ion-content style="background: #444">
+        <div class="row" ng-repeat="master in masters">
+            <ion-item class="col" style="border: none;background: #444">
+                <img ng-src="{{master.imgsrc}}" style="width: 100%">
+                <h5 style="color: #fff">{{master.name}}</h5>
+                <p>{{master.work}}</p>
+            </ion-item>
+            <ion-item class="col" style="border: none;background: #444">
+                <img ng-src="{{master.imgsrc1}}" style="width: 100%">
+                <h5 style="color: #fff">{{master.name1}}</h5>
+                <p>{{master.work1}}</p>
+            </ion-item>
+            <ion-item class="col" style="border: none;background: #444">
+                <img ng-src="{{master.imgsrc2}}" style="width: 100%">
+                <h5 style="color: #fff">{{master.name2}}</h5>
+                <p>{{master.work2}}</p>
+            </ion-item>
+        </div>
+        <ion-infinite-scroll on-infinite="getMasters()" ng-if="page<total" immediate-check="false"></ion-infinite-scroll>
+    </ion-content>
+</ion-view>
